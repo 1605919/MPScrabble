@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\chuck\Desktop\Assignatures\MP\Scrabble\MPScrabble\0. C++ Code\Logic Game\main.cpp(46,71): error C2440: '<function-style-cast>': no se puede realizar la conversión de 'initializer list' a 'Tile'
+C:\Users\chuck\Desktop\Assignatures\MP\Scrabble\MPScrabble\0. C++ Code\Logic Game\main.cpp(46,71): message : Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+C:\Users\chuck\Desktop\Assignatures\MP\Scrabble\MPScrabble\0. C++ Code\Logic Game\main.cpp(46,72): error C2440: '<function-style-cast>': no se puede realizar la conversión de 'char' a 'std::pair<char,Tile>'
+C:\Users\chuck\Desktop\Assignatures\MP\Scrabble\MPScrabble\0. C++ Code\Logic Game\main.cpp(46,72): message : Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+  Board.cpp
+  Cell.cpp
+  Dictionary.cpp
+  Tile.cpp
+  Generando código...
