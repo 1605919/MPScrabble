@@ -10,7 +10,6 @@
 class Tile
 {
 public:
-  
     
 private:
     char m_letter;
