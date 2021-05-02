@@ -9,9 +9,6 @@
 
 using namespace std;
 
-Dictionary::Dictionary()
-{
-}
 
 Dictionary::~Dictionary()
 {

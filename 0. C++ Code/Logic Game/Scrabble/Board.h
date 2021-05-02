@@ -54,8 +54,8 @@ typedef enum {
 class Board
 {
 public:
-    Board();
-    ~Board();
+    Board() {};
+    ~Board(); 
      
     PositionResult setTile(Tile &tile, const BoardPosition& boardPos);
     CurrentWordResult checkCurrentWord(int& points);

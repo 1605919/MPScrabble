@@ -17,7 +17,7 @@ typedef enum {
 class Dictionary
 {
 public:
-    Dictionary();
+    Dictionary() { setLanguage(NO_LANGUAGE); };
     ~Dictionary();
 
     void setLanguage(Language language);

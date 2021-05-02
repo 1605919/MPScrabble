@@ -21,7 +21,8 @@ typedef enum {
 class Cell
 {
 public:
-
+    Cell() { m_empty = true; m_tilePlayed = false; m_scoreEffect = DL; };
+    ~Cell();
 private:
     ScoreEffect m_scoreEffect;
     Tile m_tile;

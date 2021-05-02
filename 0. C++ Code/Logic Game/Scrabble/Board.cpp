@@ -8,9 +8,6 @@
 #include <iostream>
 #include <fstream>
 
-Board::Board()
-{
-}
 
 Board::~Board()
 {
@@ -18,7 +15,7 @@ Board::~Board()
 
 PositionResult Board::setTile(Tile& tile, const BoardPosition& boardPos)
 {
-	
+	return VALID_POSITION;
 }
 
 
@@ -35,7 +32,7 @@ a fer algunes de les comprovacions necessàries
 */
 {
 	
-	
+	return ALL_CORRECT;
 }
 
 void Board::sendCurrentWordToBoard()

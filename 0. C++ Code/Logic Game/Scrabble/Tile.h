@@ -10,7 +10,10 @@
 class Tile
 {
 public:
-    
+    Tile() {
+        m_letter = 'x'; m_score = '0';
+    }
+    ~Tile();
 private:
     char m_letter;
     unsigned int m_score;
